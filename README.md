@@ -1,5 +1,11 @@
 # Love calculator code
 
+# DIRECT LINK TO USE IT...........
+
+
+https://v0-love-calculator-code.vercel.app/
+
+
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/anuragsaini33358-6909s-projects/v0-love-calculator-code)
