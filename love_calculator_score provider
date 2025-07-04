@@ -1,0 +1,28 @@
+def calculate_love_score():.0
+def calculate_love_score(name1, name2):
+    # Combine both names and convert to lowercase
+    combined_names = (name1 + name2).lower()
+    
+    # Count the number of times each letter in "TRUE" occurs
+    true_count = (
+        combined_names.count('t') +
+        combined_names.count('r') +
+        combined_names.count('u') +
+        combined_names.count('e')
+    )
+    
+    # Count the number of times each letter in "LOVE" occurs
+    love_count = (
+        combined_names.count('l') +
+        combined_names.count('o') +
+        combined_names.count('v') +
+        combined_names.count('e')
+    )
+    
+    # Combine the two counts into a 2-digit number
+    love_score = int(str(true_count) + str(love_count))
+    
+    print(f"Your love score is: {love_score}")
+
+# Call the function with an example
+calculate_love_score("Kanye West", "Kim Kardashian")
